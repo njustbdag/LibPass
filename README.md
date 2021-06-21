@@ -4,6 +4,6 @@ Third-party library (TPL) detection is an upstream task in the domain of Android
 
 #Usage: LibPass accepts two inputs: an Android app (.apk file) and a list of libraries (.dex file). LibRoad returns a list of ARP---library pairs as results.It is possible for each ARP to have more than one lib.Since our approach applies a global searching policy to find a TPL with the highest similarity score as the perfectly matched one instead of relying on a threshold-based policy, which is helpful to minimize the possibility of false positives. TPL Discovery from the Local Repository requires a large Local database, and LibRoad alone does not work.
 
-#1 Connect to the database(the files in the db folder. 
+#1 Connect to the database(the files in the db folder). 
 
 #2.Open and run .\LibPass\src\cn\fudan\libpecker\main\LibPass.java.
